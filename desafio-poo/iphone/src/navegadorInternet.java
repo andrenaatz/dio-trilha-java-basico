@@ -1,15 +1,9 @@
-public interface navegadorInternet {
+public interface NavegadorInternet{
 
-    default void tocar(){
-        System.out.println("musica tocando");
-    }
+    void exibirPagina();
 
-    default void pausar(){
-        System.out.println("Pausada a musica");
-    }
+    void adicionarNovaAba();
 
-    default void selecionarMusica(){
-        System.out.println("musica selecionada");
-    }
+    void atualizarPagina();
     
 }

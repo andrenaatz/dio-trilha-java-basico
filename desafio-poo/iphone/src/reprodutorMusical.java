@@ -1,14 +1,8 @@
-public interface reprodutorMusical {
+public interface ReprodutorMusical{
     
-    default void tocar(){
-        System.out.println("musica tocando");
-    }
+    void tocar();
 
-    default void pausar(){
-        System.out.println("Pausada a musica");
-    }
+    void pausar();
 
-    default void selecionarMusica(){
-        System.out.println("musica selecionada");
-    }
+    void selecionarMusica();
 }

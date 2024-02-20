@@ -1,15 +1,9 @@
-public interface aparelhoTelefonico {
+public interface AparelhoTelefonico {
 
-    default void ligar(){
-        System.out.println("Fazendo ligação");
-    }
+    void ligar();
 
-    default void atender(){
-        System.out.println("Ligação atendida");
-    }
+    void atender();
 
-    default void iniciarComandoDeVoz(){
-        System.out.println("Comando de Voz iniciado");
-    }
+    void iniciarComandoDeVoz();
     
 }
