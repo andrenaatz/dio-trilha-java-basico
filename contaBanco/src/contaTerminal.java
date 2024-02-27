@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//treino DIO
 public class contaTerminal {
     public static void main(String[] args) throws Exception {
         int conta;
